@@ -1,0 +1,33 @@
+body{
+    div{
+        width: 100%;
+    }
+    div div  {
+        width: 395px;
+        background-color: rgb(230, 137, 200);
+        border-radius: 15px;
+
+    
+    }
+    div button{
+        width: 220px;
+        padding: 15px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        background-color: rgb(186, 101, 172);
+        border-radius: 24px;
+        border: none;
+        cursor: pointer;
+        transition: 0.25s;
+    }
+    div button:hover{
+        background-color: beige;
+        
+    }
+    div p{
+        font-size: 22px;
+        font-weight: 900;
+        color: black;
+    }
+    
+}

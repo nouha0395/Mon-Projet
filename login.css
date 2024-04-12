@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: beige;
+
+
+}
+
+#login:hover {
+    box-shadow: 3px 3px 50px ;
+    background-color:rgb(250, 151, 189);
+  }
+
+#login{
+    width: 300px;
+    padding: 40px;
+    background-color: bisque;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 1px 1px 10px rgb(0,0, 0);
+    border: black;
+    border-radius: 22px;
+
+}
+#login h1{
+    color: black;
+    font-weight: 800;
+
+}
+#login input[type="text"],#login input[type="password"]{
+border: 0;
+width: 240;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid black;
+padding: 14px 10px;
+outline: none;
+color: black;
+border-radius: 24px;
+transition: 0.25s;
+font-size: 15px;
+}
+#login input[type="text"]:focus,#login input[type="password"]:focus{
+    width: 280px;
+    border-color: rgb(150, 128, 103);
+}
+#login input[type="submit"]{
+    border: 0;
+    width: 240px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(145, 102, 102);
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+}
+#login input[type="submit"]:hover{
+    background: rgb(105, 67, 67);
+}
+
